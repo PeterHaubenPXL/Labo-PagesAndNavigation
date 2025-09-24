@@ -4,12 +4,23 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:HelloPXL"
-    Shell.FlyoutBehavior="Disabled"
+    xmlns:pages="clr-namespace:HelloPXL.Pages"
+    Shell.FlyoutBehavior="Flyout"
     Title="HelloPXL">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate pages:MainPage}"
+        Title="MainPage"
+        ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
+    <ShellContent
+        Title="HelloPage"
+        ContentTemplate="{DataTemplate pages:HelloPage}"
+        Route="HelloPage" />
+    
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate pages:HomePage}"
+        Route="HomePage" />
+    
 </Shell>
