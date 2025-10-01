@@ -12,12 +12,10 @@
         Title="MainPage"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-
     <ShellContent
         Title="HelloPage"
         ContentTemplate="{DataTemplate pages:HelloPage}"
         Route="HelloPage" />
-    
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate pages:HomePage}"

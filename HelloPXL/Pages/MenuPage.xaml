@@ -6,7 +6,6 @@
     <VerticalStackLayout>
         <Label 
             Text="Dit is de MenuPage"
-            VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage>

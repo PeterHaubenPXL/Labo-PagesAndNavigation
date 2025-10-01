@@ -5,7 +5,7 @@
              Title="HelloPage">
     <VerticalStackLayout Spacing="20">
         <Image Source="https://mijnlessenrooster.pxl.be/style/images/logo@2x-596b26159644a971c9268f7bd38a6e36.png" 
-               Aspect="AspectFit" ></Image>
+               Aspect="AspectFit" />
         <Label Text="Hello PXL!"
                HorizontalOptions="Center"
                FontSize="48"
